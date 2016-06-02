@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <Button
+                android:text="White"
+                android:layout_column="1"
+                android:id="@+id/button1" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <Button
+                android:text="Yellow"
+                android:layout_column="1"
+                android:id="@+id/button2" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <Button
+                android:text="Blue"
+                android:id="@+id/button3"
+                android:layout_column="1" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4">
+            <Button
+                android:text="Brown glow"
+                android:id="@+id/button4"
+                android:layout_column="1" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
